@@ -145,17 +145,81 @@ header nav p {
 }
 .pacotes .card .card-tag-bottom{
     position: absolute;
-    right: 0;
-    top: 15px;
+    left: 0;
+    top: 150px;
     background: #5d13e7;
     border-radius: 8px 0 0 8px;
-    padding:  5px 10px;
+    padding:  0px 7px;
 }
 .pacotes .card .card-tag p{
     margin: 0;
     font-size: 0.8rem;
-    color: rgb(248, 162, 162);
+    color: rgb(241, 7, 7);
     font-weight: bold;
     
 
 }
+
+.servicos{
+    padding: 15px;
+
+}
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content:  center;
+    margin: auto;
+    
+}
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+
+}
+.servicos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+
+}
+
+.servicos .card svg:hover {
+    stroke: #771ddd;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+
+}
+
+.servicos .card p{ 
+    color: rgb(96, 17, 224);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+
+}
+.contatos h2{
+    color: #eb0bba;
+}
+.contatos .mail svg {
+    color: #0ce265;
+}
+
+
+
