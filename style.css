@@ -214,12 +214,59 @@ header nav p {
     text-align: center;
 
 }
+.contatos {
+    background-color: #d0f13a;
+}
 .contatos h2{
-    color: #eb0bba;
+    color: #6e0446;
+    text-align: center;
+
 }
 .contatos .mail svg {
-    color: #0ce265;
+    color: #1ca800;
+    
+   }
+.contatos .mail{
+    margin: 20px 0;
+    text-align: center;
+    
+
 }
+.contatos .facebook{
+    text-align: center;
+    margin: 20px 0;
+}
+.contatos .facebook svg{
+    color: #040364;
+
+}
+.contatos .twitter{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contatos .twitter svg{
+    color: rgb(2, 93, 129) ;
+}
+.contatos .instagram{
+    text-align: center;
+    margin: 20px 0;
+}
+.contatos .instagram svg{
+    color: #f304bf;
+}
+.contatos .phone{
+    text-align: center;
+    margin: 20px 0;
+}
+.contatos .phone svg{
+    color: #490696;
+
+}
+.contatos p{
+ color: #201ddd;    
+}
+
 
 
 
